@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil Facebook - SPA</title>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <header class="header">
+        <div class="logo">facebook</div>
+        <input type="text" placeholder="Buscar..." class="search-bar">
+        <div class="menu-icons">
+        <span>🏠</span>
+        <span>👥</span>
+        <span>🔔</span>
+        </div>
+    </header>
+
+    <section class="cover">
+        <img src="./assets/backiee-266376.jpg" alt="Portada" class="cover-img">
+        <div class="profile-info">
+        <img src="./assets/file.jpg" alt="Perfil" class="profile-pic">
+        <div>
+            <h1>Nicolás Taborda</h1>
+            <div class="profile-buttons">
+            <button>Agregar</button>
+            <button>Mensaje</button>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <nav class="nav">
+        <button data-section="muro">Muro</button>
+        <button data-section="info">Info</button>
+        <button data-section="photos">Photos</button>
+        <button data-section="boxes">Boxes</button>
+    </nav>
+
+    <main id="content" class="content"></main>
+
+    <script src="app.js"></script>
+</body>
+</html>
